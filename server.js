@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api", (req, res) => {
-  res.json(rapperName);
+  res.json(rappers);
 });
 
 app.get("/api/:name", (req, res) => {
